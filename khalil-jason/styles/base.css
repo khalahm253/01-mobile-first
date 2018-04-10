@@ -1,15 +1,9 @@
 .heading-group-h1 {
-  background-color: goldenrod;
-  height: 300px;
+  background-color: rgb(241, 196, 81);
+  height: 200px;
+  padding:15px;
 }
-.main-nav {
-  background-color: goldenrod;
-  
-}
-.main-nav>ul{
-  list-style-type: none;
- 
-}
-.main-nav>ul>li{
-  display: inline;
+
+nav>ul{
+  background-color: rgb(241, 196, 81);
 }
