@@ -18,15 +18,43 @@
   font-size:60px;
 }
 
+
+/* nav>ul{
+  list-style-type: none;
+  margin:0px;
+}
+nav>ul>li{
+  display: inline;
+} */
+
+/* li {
+  display:inline-block;
+} */
+
 @media screen and ( min-width: 700px ){
   .icon-menu{
-    display:none;
+    visibility:hidden;
   }
+
+  .icon-menu li{
+    visibility:visible;
+    display:inline-block;
+  }
+
 }
 
 /* //mobileVVVV */
 @media screen and ( max-width: 699px ){
-  nav>ul{
+  .icon-menu{
+    display:inline-block;
+  }
+  
+  .icon-menu li {
     display:none;
   }
+
+  .icon-menu:hover li {
+    display:block;
+  }
+
 }
