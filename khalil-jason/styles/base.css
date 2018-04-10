@@ -1,0 +1,15 @@
+.heading-group-h1 {
+  background-color: goldenrod;
+  height: 300px;
+}
+.main-nav {
+  background-color: goldenrod;
+  
+}
+.main-nav>ul{
+  list-style-type: none;
+ 
+}
+.main-nav>ul>li{
+  display: inline;
+}

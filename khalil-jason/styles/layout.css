@@ -2,8 +2,17 @@
   .icon-menu{
     display:none;
   }
+  .main-nav {
+    
+    background-color: green;
+  }
 }
 
 @media screen and ( max-width: 799px ){
+  .nav-link:after {
+   content:"";
+   display: table;
+   clear: both;
+  }
 
 }
