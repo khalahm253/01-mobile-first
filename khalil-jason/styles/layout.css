@@ -1,18 +1,33 @@
-@media screen and ( min-width: 800px ){
-  .icon-menu{
-    display:none;
-  }
-  .main-nav {
-    
-    background-color: green;
-  }
-}
-
-@media screen and ( max-width: 799px ){
-  .nav-link:after {
-   content:"";
-   display: table;
-   clear: both;
-  }
-
-}
+.heading-group-h1{
+  padding-left: 2%;
+  padding-bottom: .5%;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .site-header{
+  background-color: #FFEAA9; 
+ }
+ 
+ @media (max-width:640px){
+  .icon-menu {float: right;}
+  .icon-menu:hover + ul li{
+    display: block;}
+ }
+ @media (max-width:640px){
+  nav ul {display: none;}
+ }
+ 
+ @media (min-width:640px){
+  .icon-menu {display: none;}
+ }
+ 
+ .icon-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+ }
+ 
+ .icon-menu:hover + ul{
+  display: block;
+ }
